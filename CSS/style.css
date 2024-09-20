@@ -325,42 +325,29 @@ a{
     padding-top: 1rem;
     display: flex;
     justify-content: center;
+     background-color: var(--spf--primary);
     
-    background-color: var(--spf--primary);
-        cursor: pointer;
-        
-
-      
    
     h5{
         color:var(--spf--grey);
     }
     
-    /*.span{ 
-        padding-left: 0.5rem;
-        width: 40px;
-        height: 5px;
-        background-color: green;
-        
-    } */
+    
+   }
 
-    .botton-x:hover{
-
-        a:active{
-            text-decoration: var(--spf--green);
-
-        }
-        
-            
+   
+   .botton-x:active{
+    
+   .span{
+     
+        width: 50px;
+        height: 3px;
+        margin-left: 1rem;
+        background-color: var(--spf--green);
         
     }
 }
-/*.botton-x:active{
-    position: absolute;
-    width: 50px;
-    height:3px;
-    color: green;
-}*/
+
 
 /* GRID - SECTION */
 
