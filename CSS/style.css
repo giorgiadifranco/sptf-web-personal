@@ -131,6 +131,13 @@ a{
         
     }
 
+    .card_home{
+
+        h5:active{
+            color:white;
+        }
+    }
+
 /* PLAYLIST */
 
 .title_section{
@@ -355,6 +362,8 @@ a{
     color: green;
 }*/
 
+/* GRID - SECTION */
+
 .recently, .foryou, .hit{
     padding-top: 3rem;
     
@@ -403,6 +412,66 @@ a{
     
     
  }
+/* ----HOVER ---- */
+ /*.back{
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f34f4f4d;
+
+    .fa-circle-play{
+        color: white;
+        
+    }
+    
+ }*/
+
+ .images .square_icon{
+    
+    
+    
+   width: 190px;
+    height: 190px;
+    background-color:green;
+    opacity: 0.5;
+    
+ }
+ .fa-circle-play{
+    
+    color: white;
+    
+ }
+ .images .front{
+    
+
+
+ }
+ 
+ .square_icon{
+    display: none;
+ }
+
+ .images:hover .square_icon  {
+    display: inline;
+    position: absolute;
+    left:0
+
+    
+}
+.images:hover .front{
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
  .description_title{
     padding-top: 1rem;
     padding-bottom: 2rem;
