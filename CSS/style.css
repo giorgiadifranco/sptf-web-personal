@@ -274,7 +274,7 @@ a{
     background-color:var(--spf--primary);
 }
 .header_content{
-    position:;
+   
     
     display: flex;
     justify-content: flex-end;
@@ -299,6 +299,13 @@ a{
             color: white;
         }
     }
+}
+
+.header_content:hover{
+
+        span{
+            width: 250px;
+        }
 }
 .menu_x{
     
